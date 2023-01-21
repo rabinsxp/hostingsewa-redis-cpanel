@@ -10,8 +10,8 @@ echo "Extracting plugin..."
 unzip hostingsewa_redis.zip
 
 # Fix folder structure
-mv redis_cpanel-main/* ./
-#mv redis_cpanel-main/.* ./
+mv hostingsewa-redis-cpanel-main/* ./
+#mv hostingsewa-redis-cpanel-main/.* ./
 
 # Register plugin with cPanel
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/hostingsewa_redis --theme paper_lantern
@@ -20,7 +20,7 @@ mv redis_cpanel-main/* ./
 #Cleanup by removing release
 echo "Cleaning Up..."
 rm -f hostingsewa_redis.zip
-rm -rf redis_cpanel-main
+rm -rf hostingsewa-redis-cpanel-main
 
 # Fix permissions
 echo "Finalizing permissions..."
@@ -39,8 +39,8 @@ echo "Extracting plugin..."
 unzip hostingsewa_redis.zip
 
 # Fix folder structure
-mv redis_cpanel-main/* ./
-#mv redis_cpanel-main/.* ./
+mv hostingsewa-redis-cpanel-main/* ./
+#mv hostingsewa-redis-cpanel-main/.* ./
 
 # Register plugin with cPanel
  /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/hostingsewa_redis --theme jupiter
@@ -49,7 +49,7 @@ mv redis_cpanel-main/* ./
 #Cleanup by removing release
 echo "Cleaning Up..."
 rm -f hostingsewa_redis.zip
-rm -rf redis_cpanel-main
+rm -rf hostingsewa-redis-cpanel-main
 
 # Fix permissions
 echo "Finalizing permissions..."
