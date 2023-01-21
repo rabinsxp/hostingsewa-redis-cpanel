@@ -9,7 +9,7 @@ To install the plugin, please do the following:
 1. Login to your server via SSH
 2. Clone the repo:
 ```
-    git clone https://github.com/rabinsxp/redis_cpanel.git 
+    git clone https://github.com/rabinsxp/hostingsewa-redis-cpanel.git 
 ```
 3. As root, do the following:
 ```
